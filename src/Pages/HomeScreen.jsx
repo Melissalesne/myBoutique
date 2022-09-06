@@ -42,29 +42,6 @@ export default function HomeScreen() {
   return (
     <>
       <h1 className="text-center mt-5">La boutique de John Doe</h1>
-      {/* <div className="container d-flex ">
-        <CategoryCards
-          title={"homme"}
-          description={"La mode pour lui"}
-          image={"./assets/images/categorie-homme.jpg"}
-        />
-        <CategoryCards
-          title={"femme"}
-          description={"La mode pour elle"}
-          image={"./assets/images/categorie-femme.jpg"}
-        />
-        <CategoryCards
-          title={"enfant"}
-          description={"La mode pour eux"}
-          image={"./assets/images/girl.jpg"}
-        />
-        <CategoryCards
-          title={"baby"}
-          description={"La mode pour eux aussi"}
-          image={"./assets/images/baby.jpg"}
-        />
-        <br />
-      </div> */}
       <div className="d-flex">{categoryElement}</div>
     </>
   );
