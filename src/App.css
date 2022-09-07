@@ -1,0 +1,42 @@
+.app {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#light {
+    background-color: #f1f1f1;
+}
+
+#dark {
+    background-color: black;
+}
+
+#dark .main h1 {
+    color: white;
+}
+
+.switch {
+    display: flex;
+    width: 100vw;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.switch label {
+    margin: 10px;
+}
+
+#light .switch label {
+    color: black;
+}
+
+#dark .switch label {
+    color: white;
+}

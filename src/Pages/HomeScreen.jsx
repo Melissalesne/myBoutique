@@ -1,6 +1,7 @@
 import React from "react";
 import CategoryCards from "../Components/CategoryCards";
 import "./homeScreen.css";
+
 export default function HomeScreen() {
   const categoryCat = [
     {
@@ -41,7 +42,7 @@ export default function HomeScreen() {
 
   return (
     <>
-      <h1 className="text-center mt-5">La boutique de John Doe</h1>
+      <h1 className="text-center mt-5 text-white">La boutique de John Doe</h1>
       <div className="d-flex">{categoryElement}</div>
     </>
   );
